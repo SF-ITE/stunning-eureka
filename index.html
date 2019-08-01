@@ -3,8 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
 <title>Eric's Pointless Projects -- The Cube</title>
 <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 <style>
@@ -354,6 +353,15 @@ body {
   z-index: 5;
 }
 
+.credits {
+  font-family: Ariel, sans-serif;
+  font-size: 12px;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 40px;
+}
+
   </style>
 <script>
   window.console = window.console || function(t) {};
@@ -363,6 +371,7 @@ body {
     window.parent.postMessage("resize", "*");
   }
 </script>
+
 </head>
 <body translate="no">
 <div class="ui">
@@ -373,8 +382,10 @@ body {
 <span>ERIC'S</span>
 <span>CUBE</span>
 </h1>
+
 <div class="text text--note">
 Double tap to start
+<div class="credits">A silly little game in < 8kB by <a href="https://ericerrickson.ml">Eric Errickson</a></div>
 </div>
 <div class="text text--timer">
 0:00
